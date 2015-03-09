@@ -27,6 +27,7 @@ Note: Such a framework should include at least container management, cluster man
 - [Clocker](https://github.com/brooklyncentral/clocker)
 - [paz](https://github.com/yldio/paz)
 
+
 ## Host OSes designed for Docker
 
 - [CoreOS](https://coreos.com). Use systemd to manage container upstarts and dependencies, etcd for service discovery, and CoreUpdate for operating system updates.
@@ -121,6 +122,7 @@ Solomon proposed to support VXLAN from the Docker core.
 - Flynn
 - [Modit](https://mod.it): for staging.
 - Shippable: for testing & deployment
+- Vagrant 
 - docker-cmd: manage docker commands with JSON. https://github.com/iorga-group/docker-cmd. seems dead?
 
 ## Image hosting companies (i.e. private registries)
@@ -128,6 +130,19 @@ Solomon proposed to support VXLAN from the Docker core.
 - Quay.io from CoreOS
 - Docker Hub Enterprise
 - Private Docker registries using the “registry" docker image.
+
+## Configuration Management Tools with Docker support 
+
+- Ansible 
+- Saltstack
+- Chef 
+- Puppet 
+- Packer
+
+## Networking with Docker
+
+- [Skydock](https://github.com/crosbymichael/skydock) 
+- Vulcand 
 
 ## Container hosting companies
 
